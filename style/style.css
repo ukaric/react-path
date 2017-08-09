@@ -1,0 +1,37 @@
+.searchBar {
+  margin: 20px;
+  text-align: center;
+}
+
+.searchBar input {
+  width: 75%;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+  text-indent: 10px;
+}
+
+.searchBar input:focus {
+  outline: none;
+}
+
+.videoItem img {
+  max-width: 64px;
+}
+
+.videoDetails .details {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.list-group-item {
+  cursor: pointer;
+  transition: all 0.35s ease-in-out;
+}
+
+.list-group-item:hover {
+  background-color: #eee;
+}
